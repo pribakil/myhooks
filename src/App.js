@@ -4,7 +4,8 @@ import ToggleComponent from "./custom_hooks/use_toggle/ToggleComponent";
 function App() {
   return (
     <>
-      <ToggleComponent />
+      {/* <ToggleComponent /> */}
+      <TimeoutComponent />
     </>
   );
 }

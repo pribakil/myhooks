@@ -2,7 +2,6 @@ import useToggle from "./useToggle";
 
 export default function ToggleComponent() {
   const [value, toggleValue] = useToggle(false);
-  console.log("rendring");
   return (
     <div>
       <div>{value.toString()}</div>
